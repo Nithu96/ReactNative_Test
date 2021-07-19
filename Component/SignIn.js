@@ -102,8 +102,10 @@ export default class SignIn extends Component{
 
 const styles = StyleSheet.create({
     inputUi: {
-        borderColor: "black",
-        borderWidth: 1,
+        backgroundColor: '#EEEEEE',
+        borderColor: "#787A91",
+        borderRadius: 20,
+        borderWidth: 10,
         padding: 20,
         marginLeft: 20,
         marginRight: 20,
@@ -117,15 +119,17 @@ const styles = StyleSheet.create({
     lableText: { 
         fontSize: 16, 
         color: 'black', 
-        width: '30%'
+        width: '30%',
+        fontWeight : 'bold',
      },
     inputText: {
         color: "black",
         borderColor: "black",
-        borderWidth: 1,
+        borderWidth: 2,
         width: '70%',
         height: 50,
         paddingLeft: 10,
+        borderRadius: 10,
      },
     credText: { 
         fontSize: 16, 
@@ -133,7 +137,7 @@ const styles = StyleSheet.create({
         width: '30%'
      },
     loginBtn: {
-        backgroundColor: "#D3D3D3",
+        backgroundColor: "#141E61",
         borderColor: "black",
         height: 50,
         alignItems: 'center',
@@ -141,10 +145,12 @@ const styles = StyleSheet.create({
         margin: 10,
         width: '30%',
         borderWidth: 2,
+        borderRadius: 10
       },
     loginText: {
-        color: "black",
+        color: "white",
         textAlign: 'center',
+        fontWeight : 'bold',
         fontSize: 16
       },
 })
